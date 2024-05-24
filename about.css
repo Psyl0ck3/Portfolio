@@ -1,0 +1,100 @@
+body {
+    background-color: #0d0d0d;
+    color: #9e9790;
+    height: 5000%;
+}
+
+.navbar-nav {
+    border: 2px solid #9e9790;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 20px;
+    display: flex;
+    background: rgba( 15, 14, 13, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 158, 151, 144, 0.3 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    
+}
+
+.nav-item {
+    font-size: 130%;
+}
+
+.portrait {
+    display: flex;
+    width:400px;
+    height: 600px;
+   
+}
+
+.about {
+    padding-top: 100px;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.intro {
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 150%;
+}
+
+.job {
+    font-size: 96%
+}
+
+.quote {
+    font-size: 60%;
+    font-weight: lighter;
+}
+
+.edu-skills {
+    display: flex;
+    padding-top: 65px;
+    gap: 20px 180px;
+}
+
+.education {
+    width: 500px;
+    height: 290px;
+    border: 2px solid #9e9790;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background: rgba(158, 151, 144, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 158, 151, 144, 0.3 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+
+.skills {
+    width: 500px;
+    height: 290px;
+    border: 2px solid #9e9790;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background: rgba(158, 151, 144, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 158, 151, 144, 0.3 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+
+p {
+    font-size: large;
+}
+
+.container {
+    padding:2%;
+}
+
+
+
+
+

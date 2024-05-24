@@ -1,0 +1,144 @@
+body {
+    background-color: #0d0d0d;
+    color: #9e9790;
+    
+}
+
+.navbar-nav {
+    border: 2px solid #9e9790;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 20px;
+    display: flex;
+    background: rgba(15, 14, 13, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 158, 151, 144, 0.3 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    
+}
+
+.nav-item {
+    font-size: 130%;
+}
+.profile {
+    width: 650px;
+    height: 650px;
+}
+
+.prof-image{
+    justify-content: center;
+    display: flex;
+}
+
+.title-name {
+    margin-top: -90px;
+}
+.name{
+    justify-content: center;
+    display: flex;
+    font-weight:700;
+    font-size: 480%;
+}
+
+.job{
+    justify-content: center;
+    display: flex;
+    font-size: 100%;
+}
+
+.skilldes {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px 50px;
+}
+
+.frontend-skill {
+    height:250px;
+    background: rgba( 158, 151, 144, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 158, 151, 144, 0.3 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 140%;
+}
+
+.uiux-skill {
+    height:250px;
+    background: rgba( 158, 151, 144, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 158, 151, 144, 0.3 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 140%;
+}
+
+
+
+.work-title {
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+    font-weight: bolder;
+    font-size: 200%;
+
+}
+
+.left {
+    width: 270px;
+    height: 270px;
+}
+.center {
+    width: 270px;
+    height: 270px;
+}
+.right {
+    width: 270px;
+    height: 270px;
+}
+.card {
+    margin: auto;
+    width: 1200px;
+    height: 530px;
+    background-color: #0d0d0d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    transition: grid-template-columns .3s;
+    justify-content: center;
+}
+
+.card:has(.left:hover) {
+    grid-template-columns: 2fr .5fr .5fr;
+    
+}
+.card:has(.center:hover) {
+    grid-template-columns: .5fr 2fr .5fr;
+}
+.card:has(.right:hover) {
+    grid-template-columns: .5fr .5fr 2fr;
+    
+}
+
+.skill-title {
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+    font-weight: bolder;
+    font-size: 200%;
+
+}
+
+
+.icon-container {
+    margin: auto 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.skill-icon {
+    width: 350px;
+    height: 350px;
+}
